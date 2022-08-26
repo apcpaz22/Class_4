@@ -9,18 +9,18 @@ body.style.backgroundColor = ('#ff00ff');
 
 // Task 1
 function randomColor() {
-    var x = Math.floor(Math.random() * 256);
-    var y = Math.floor(Math.random() * 256);
-    var z = Math.floor(Math.random() * 256);
-    var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+    let x = Math.floor(Math.random() * 256);
+    let y = Math.floor(Math.random() * 256);
+    let z = Math.floor(Math.random() * 256);
+    let bgColor = "rgb(" + x + "," + y + "," + z + ")";
  console.log(bgColor);
   
     document.body.style.background = bgColor;
     }
 
 // Task 2
-const arr1 = [true, true, false, true, true, true, false];
-const countTrue = arr1.filter(value => value === true).length;
+let arr1 = [true, true, false, true, true, true, false];
+let countTrue = arr1.filter(value => value === true).length;
 
 console.log(countTrue); 
 
